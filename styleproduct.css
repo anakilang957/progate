@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #0f8b8d;
+  padding: 10px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 36px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.product {
+  text-align: center;
+  position: relative;
+  color: #0f8b8d;
+}
+.product h2 {
+  margin-top: 245px;
+  font-size: 48px;
+}
+.product p {
+  font-size: 24px;
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+}
+.wrapper {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(3, 0.25fr);
+
+  color: white;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.card1 {
+  background-image: url(assets/Coffee\ background.png);
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+}
+.card1 h1 {
+  text-align: center;
+}
+.card1 img {
+  width: 200px;
+  height: 139px;
+}
+
+.card2 {
+  background-image: url(assets/Coffee\ background.png);
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+}
+.card2 h1 {
+  text-align: center;
+}
+.card2 img {
+  width: 200px;
+  height: 139px;
+}
+
+.card3 {
+  background-image: url(assets/Coffee\ background.png);
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+}
+.card3 h1 {
+  text-align: center;
+}
+.card3 img {
+  width: 200px;
+  height: 139px;
+}
+
+.card4 {
+  background-image: url(assets/Coffee\ background.png);
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  margin-top: 40px;
+}
+.card4 h1 {
+  text-align: center;
+}
+.card4 img {
+  width: 200px;
+  height: 139px;
+}
+
+.card5 {
+  background-image: url(assets/Coffee\ background.png);
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  margin-top: 40px;
+}
+.card5 h1 {
+  text-align: center;
+}
+.card5 img {
+  width: 200px;
+  height: 139px;
+}
+
+.card6 {
+  background-image: url(assets/Coffee\ background.png);
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  margin-top: 40px;
+}
+.card6 h1 {
+  text-align: center;
+}
+.card6 img {
+  width: 200px;
+  height: 139px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 463px;
+  left: auto;
+  margin-top: 100px;
+  background: #143642;
+  border-radius: 20px;
+}
+
+footer .footer-main {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 0.5fr 1fr;
+  margin-top: 70px;
+}
+
+footer .footer-main .footer-col img {
+  position: absolute;
+  width: 33, 3%;
+  height: 67px;
+  left: 138px;
+  top: 100px;
+}
+footer .footer-main .footer-icon {
+  display: flex;
+  position: absolute;
+  width: 33, 3%;
+  height: 67px;
+  left: 138px;
+  top: 165px;
+}
+
+footer .footer-main .footer-col h4 {
+  color: #ec9a29;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+}
+
+footer .footer-main .footer-col ul li a {
+  text-decoration: none;
+  display: grid;
+  position: relative;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px 5px;
+  color: #f9fbfe;
+  right: 42px;
+}
+footer .footer-main .footer-col ul li {
+  list-style: none;
+}
+.footer1 {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}

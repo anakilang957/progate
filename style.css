@@ -1,0 +1,442 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(assets/Coffe\ Header.png);
+  font-family: sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 20px;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+header .logo {
+  position: absolute;
+  width: 335px;
+  height: 67px;
+  left: 100px;
+  top: 20px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  line-height: 56px;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  height: 67px;
+  top: 40px;
+  font-size: 30px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #ffffff;
+  background-color: black;
+}
+
+.main {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding: 180px 0 100px 0;
+  color: white;
+  font-family: lato;
+  align-items: center;
+}
+
+.main h3 {
+  font-size: 70px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.main p {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.content-text h1 {
+  position: absolute;
+  width: 282px;
+  height: 58px;
+  left: 730px;
+  top: 800px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 5px;
+  color: #0f8b8d;
+}
+
+.content-text hr {
+  position: absolute;
+  width: 278px;
+  height: 5px;
+  left: 730px;
+  top: 878px;
+
+  background: #ec9a29;
+}
+
+.content-text p {
+  position: absolute;
+  width: 452px;
+  height: 116px;
+  left: 730px;
+  top: 903px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #143642;
+}
+
+.content-image {
+  display: flex;
+  position: absolute;
+  width: 335px;
+  height: 460px;
+  background-size: cover;
+  overflow: hidden;
+  left: 200px;
+  top: 800px;
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+.content2 h1 {
+  position: absolute;
+  width: 400px;
+  height: 58px;
+  left: 257px;
+  top: 1360px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  color: #0f8b8d;
+}
+
+.content2 p {
+  position: absolute;
+  width: 425px;
+  height: 58px;
+  left: 257px;
+  top: 1463px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #143642;
+}
+
+.content2 hr {
+  position: absolute;
+  width: 399px;
+  height: 5px;
+  left: 257px;
+  top: 1438px;
+  background: #ec9a29;
+}
+
+.content-image2 {
+  display: flex;
+  position: absolute;
+  width: 260px;
+  height: 395px;
+  background: #d9d9d9;
+  border-radius: 20px;
+  left: 848px;
+  top: 1360px;
+  overflow: hidden;
+}
+
+.content2 button {
+  position: absolute;
+  width: 245px;
+  height: 50px;
+  left: 307px;
+  top: 1586px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(175, 25, 25);
+}
+
+.content2 button:hover {
+  background-color: black;
+}
+.content2 button:active {
+  background-color: black;
+  transform: translateY(4px);
+}
+
+.content3 h1 {
+  position: absolute;
+  width: 382px;
+  height: 58px;
+  left: 848px;
+  top: 1795px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  color: #0f8b8d;
+}
+
+.content3 p {
+  position: absolute;
+  width: 398px;
+  height: 87px;
+  left: 848px;
+  top: 1898px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #143642;
+}
+
+.content3 hr {
+  position: absolute;
+  width: 381px;
+  height: 5px;
+  left: 848px;
+  top: 1873px;
+  background: #ec9a29;
+}
+
+.content-image3 {
+  display: flex;
+  position: absolute;
+  width: 453px;
+  height: 453px;
+  left: 257px;
+  top: 1795px;
+  overflow: hidden;
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+.content3 button {
+  position: absolute;
+  width: 230px;
+  height: 50px;
+  left: 942px;
+  top: 2050px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  color: #f9fbfe;
+  background-color: rgb(175, 25, 25);
+}
+
+.content3 button:hover {
+  background-color: black;
+}
+.content3 button:active {
+  background-color: black;
+  transform: translateY(4px);
+}
+
+.content4 h3 {
+  position: absolute;
+  width: 855px;
+  height: 58px;
+  left: 293px;
+  top: 2348px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #0f8b8d;
+}
+
+.content4 b {
+  color: #ec9a29;
+}
+
+.grid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 80px;
+  align-items: center;
+  grid-gap: 30px;
+  width: 100px;
+  height: 237px;
+  left: 137px;
+  top: 2456px;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.content5 h3 {
+  position: absolute;
+  width: 280px;
+  height: 58px;
+  left: 580px;
+  top: 3230px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #0f8b8d;
+}
+
+.content5 p {
+  position: absolute;
+  width: 877px;
+  height: 29px;
+  left: 282px;
+  top: 3330px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #143642;
+}
+
+.content5 button {
+  position: absolute;
+  width: 335px;
+  height: 50px;
+  left: 552px;
+  top: 3400px;
+  border: none;
+  background: #a8201a;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+.content5 button:hover {
+  background-color: black;
+}
+.content5 button:active {
+  background-color: black;
+  transform: translateY(4px);
+}
+
+.footer {
+  position: absolute;
+  width: 1345px;
+  height: 460px;
+  left: auto;
+  top: 3520px;
+  background: #143642;
+  border-radius: 20px;
+}
+
+footer .footer-main {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 0.5fr 1fr;
+  margin-top: 70px;
+}
+
+footer .footer-main .footer-col img {
+  position: absolute;
+  width: 33, 3%;
+  height: 67px;
+  left: 138px;
+  top: 100px;
+}
+footer .footer-main .footer-icon {
+  display: flex;
+  position: absolute;
+  width: 33, 3%;
+  height: 67px;
+  left: 138px;
+  top: 165px;
+}
+
+footer .footer-main .footer-col h4 {
+  color: #ec9a29;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+}
+
+footer .footer-main .footer-col ul li a {
+  text-decoration: none;
+  display: grid;
+  position: relative;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px 5px;
+  color: #f9fbfe;
+  right: 42px;
+}
+footer .footer-main .footer-col ul li {
+  list-style: none;
+}
+
+.footer1 {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}

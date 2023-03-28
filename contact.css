@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #0f8b8d;
+  padding: 10px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 36px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+.content {
+  margin-top: 245px;
+  margin-left: 257px;
+  color: #0f8b8d;
+  font-size: 48px;
+}
+
+.container {
+  width: 926px;
+  height: 900px;
+  background: #ffffff;
+  border: 1px solid #d2d2d2;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-left: 257px;
+  margin-top: -40px;
+  font-size: 30px;
+  color: #143642;
+}
+.form input {
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 493px;
+  height: 71px;
+  background: #ffffff;
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+}
+.form1 p {
+  position: absolute;
+  float: left;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.form2 p {
+  position: absolute;
+  float: left;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.form3 p {
+  position: absolute;
+  float: left;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.form4 p {
+  position: absolute;
+  float: left;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.form5 p {
+  position: absolute;
+  float: left;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.form textarea {
+  margin-left: 250px;
+  margin-top: 50px;
+  width: 493px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.button {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 552px;
+  top: 1150px;
+  border: none;
+  background: #a8201a;
+  border-radius: 55px;
+  text-align: center;
+
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+}
+.button:active {
+  background-color: black;
+  transform: translateY(4px);
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 463px;
+  left: auto;
+  margin-top: 100px;
+  background: #143642;
+  border-radius: 20px;
+}
+
+footer .footer-main {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 0.5fr 1fr;
+  margin-top: 70px;
+}
+
+footer .footer-main .footer-col img {
+  position: absolute;
+  width: 33, 3%;
+  height: 67px;
+  left: 138px;
+  top: 100px;
+}
+footer .footer-main .footer-icon {
+  display: flex;
+  position: absolute;
+  width: 33, 3%;
+  height: 67px;
+  left: 138px;
+  top: 165px;
+}
+
+footer .footer-main .footer-col h4 {
+  color: #ec9a29;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+}
+
+footer .footer-main .footer-col ul li a {
+  text-decoration: none;
+  display: grid;
+  position: relative;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px 5px;
+  color: #f9fbfe;
+  right: 42px;
+}
+footer .footer-main .footer-col ul li {
+  list-style: none;
+}
+.footer1 {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
