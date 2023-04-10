@@ -1,1 +1,1 @@
-link : progate.vercel.app
+link : https://progate.vercel.app/
